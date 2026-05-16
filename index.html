@@ -1194,13 +1194,13 @@
     <aside class="sidebar">
         <nav class="nav-menu">
             <div class="nav-item active" onclick="switchTab('home')">Home</div>
-            <div class="nav-item" onclick="switchTab('misconceptions')">Misconceptions</div>
-            <div class="nav-item" onclick="switchTab('discussion')">Content Discussion</div>
-            <div class="nav-item" onclick="switchTab('home-activities')">Home Activities</div>
-            <div class="nav-item" onclick="switchTab('other-activities')">Other Learning Activities</div>
+            <div class="nav-item" onclick="switchTab('introduction')">Introduction</div>
+            <div class="nav-item" onclick="switchTab('discussion')">Discussion</div>
+            <div class="nav-item" onclick="switchTab('experiment')">Experiment</div>
+            <div class="nav-item" onclick="switchTab('summary')">Summary</div>
             <div class="nav-item" onclick="switchTab('evaluation')">Evaluation</div>
+            <div class="nav-item" onclick="switchTab('others')">Other Learning Materials</div>
             <div class="nav-item" onclick="switchTab('authors')">About the Authors</div>
-            <div class="nav-item" onclick="switchTab('comments')">Comments</div>
         </nav>
     </aside>
     
@@ -1215,24 +1215,30 @@
                 <div class="media-container">
                     <img src="https://i.imgur.com/VVHXRAk.gif" class="img-fluid" alt="Placeholder">
                 </div>
+                <br><br><br><br>
+                <script src="https://giscus.app/client.js"
+                    data-repo="kyrus-12/subatomic_particles"
+                    data-repo-id="R_kgDOSIrU1g"
+                    data-category="General"
+                    data-category-id="DIC_kwDOSIrU1s4C7ZGh"
+                    data-mapping="url"
+                    data-strict="0"
+                    data-reactions-enabled="1"
+                    data-emit-metadata="0"
+                    data-input-position="bottom"
+                    data-theme="dark_high_contrast"
+                    data-lang="en"
+                    crossorigin="anonymous"
+                    async>
+                </script>
             </div>
         </section>
 
-        <section id="misconceptions" class="content-section">
-            <div class="intro-card">
-                <h1>Misconceptions</h1>
-                <p>Itama ang maling akala nak!</p>
-                <div class="media-container">
-                    <div class="video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/lk5Tg6RB5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
-        <section id="discussion" class="content-section">
+        <section id="introduction" class="content-section">
             <div class="intro-card">
-                <h1>Content Discussion</h1>
+                <h1>Introduction</h1>
                 <p>Mag-aral ka na nak!</p>
                 <br><br>
                                
@@ -1321,10 +1327,24 @@
         </div>
         </section>
 
-        <!-- ===================== HOME ACTIVITIES (WITH QUIZZES) ===================== -->
-        <section id="home-activities" class="content-section">
+        
+
+        <section id="discussion" class="content-section">
             <div class="intro-card">
-                <h1>Home Activities</h1>
+                <h1>Discussion</h1>
+                <p>Itama ang maling akala nak!</p>
+                <div class="media-container">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/lk5Tg6RB5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== HOME ACTIVITIES (WITH QUIZZES) ===================== -->
+        <section id="experiment" class="content-section">
+            <div class="intro-card">
+                <h1>Experiment</h1>
                 <p>May another gawain pa.</p>
                 
                 <h1>Matching Activity</h1>
@@ -1352,9 +1372,11 @@
             </div>
         </section>
 
-        <section id="other-activities" class="content-section">
+        
+
+        <section id="summary" class="content-section">
             <div class="intro-card">
-                <h1>Other Learning Activities</h1>
+                <h1>Summary</h1>
                 <p>Haist.</p>
                 <div class="embed-container">
                     <iframe src="https://extended-activity.onrender.com/" style="height: 950px;" allow="autoplay; fullscreen; encrypted-media" allowfullscreen></iframe>
@@ -1428,24 +1450,10 @@
             </div>
         </section>
 
-        <section id="comments" class="content-section">
+        <section id="others" class="content-section">
             <div class="intro-card">
-                <h1>Comments</h1>
-                <script src="https://giscus.app/client.js"
-                    data-repo="kyrus-12/subatomic_particles"
-                    data-repo-id="R_kgDOSIrU1g"
-                    data-category="General"
-                    data-category-id="DIC_kwDOSIrU1s4C7ZGh"
-                    data-mapping="url"
-                    data-strict="0"
-                    data-reactions-enabled="1"
-                    data-emit-metadata="0"
-                    data-input-position="bottom"
-                    data-theme="dark_high_contrast"
-                    data-lang="en"
-                    crossorigin="anonymous"
-                    async>
-                </script>
+                <h1>Other Learning Materials</h1>
+                
             </div>
         </section>
         
